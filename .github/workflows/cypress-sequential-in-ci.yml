@@ -1,4 +1,4 @@
-name: cypress-parallel-in-ci
+name: cypress-sequential-in-ci
 
 on:
   workflow_dispatch:
@@ -9,7 +9,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
-      - name: Run parallel Cypress tests with GH Actions
+      - name: Run sequential Cypress tests with GH Actions
         uses: cypress-io/github-action@v2
         with:
-          command: npm run cy:parallel
+          command: npx cypress run --browser chrome
