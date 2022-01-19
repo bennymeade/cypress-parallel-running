@@ -1,0 +1,15 @@
+name: Share data between steps
+
+on:
+  workflow_dispatch:
+
+jobs:
+  data-checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Run specifc Cypress tests with GH Actions
+        uses: cypress-io/github-action@v2
+        with:
+          command: npm run cy:parallel
