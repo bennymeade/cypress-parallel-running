@@ -1,0 +1,29 @@
+# https://github.com/cypress-io/github-action#parallel
+name: Parallel on every OS
+
+on: 
+  workflow_dispatch:
+
+jobs:
+  parallel-runs-across-platforms:
+    name: every OS
+    strategy:
+      fail-fast: false
+      matrix:
+        # run 2 copies of the current job in parallel
+        # and they will load balance all specs
+        os: ['ubuntu-latest']
+        machines: [1, 2]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+
+      - name: run tests
+        uses: cypress-io/github-action@v2
+        with:
+          record: true
+          parallel: true
+          group: Parallel 2x on ${{ matrix.os }}
+          command: npx cypress run
+
