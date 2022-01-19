@@ -1,0 +1,26 @@
+{
+  "name": "cypress-parallel-running",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cy:run": "cypress run",
+    "cy:parallel": "cypress-parallel -s cy:run -t 2 -d cypress/integration/2-advanced-examples -a '\"--config baseUrl=https://example.cypress.io\"'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bennymeade/cypress-parallel-running.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bennymeade/cypress-parallel-running/issues"
+  },
+  "homepage": "https://github.com/bennymeade/cypress-parallel-running#readme",
+  "devDependencies": {
+    "cypress": "9.0.0",
+    "cypress-multi-reporters": "^1.5.0",
+    "cypress-parallel": "^0.8.2"
+  }
+}

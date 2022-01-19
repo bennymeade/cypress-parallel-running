@@ -102,3 +102,24 @@ dist
 
 # TernJS port file
 .tern-port
+runner-results/cypress_integration_2-advanced-examples_actions.spec.js.json
+runner-results/cypress_integration_2-advanced-examples_aliasing.spec.js.json
+runner-results/cypress_integration_2-advanced-examples_assertions.spec.js.json
+runner-results/cypress_integration_2-advanced-examples_connectors.spec.js.json
+runner-results/cypress_integration_2-advanced-examples_cookies.spec.js.json
+runner-results/cypress_integration_2-advanced-examples_cypress_api.spec.js.json
+runner-results/cypress_integration_2-advanced-examples_files.spec.js.json
+runner-results/cypress_integration_2-advanced-examples_local_storage.spec.js.json
+runner-results/cypress_integration_2-advanced-examples_location.spec.js.json
+runner-results/cypress_integration_2-advanced-examples_misc.spec.js.json
+runner-results/cypress_integration_2-advanced-examples_navigation.spec.js.json
+runner-results/cypress_integration_2-advanced-examples_network_requests.spec.js.json
+runner-results/cypress_integration_2-advanced-examples_querying.spec.js.json
+runner-results/cypress_integration_2-advanced-examples_spies_stubs_clocks.spec.js.json
+runner-results/cypress_integration_2-advanced-examples_traversal.spec.js.json
+runner-results/cypress_integration_2-advanced-examples_utilities.spec.js.json
+runner-results/cypress_integration_2-advanced-examples_viewport.spec.js.json
+runner-results/cypress_integration_2-advanced-examples_waiting.spec.js.json
+runner-results/cypress_integration_2-advanced-examples_window.spec.js.json
+cypress/screenshots/2-advanced-examples/cypress_api.spec.js/Cypress.config() -- Get and set configuration options (failed).png
+cypress/screenshots/2-advanced-examples/misc.spec.js/my-image.png
