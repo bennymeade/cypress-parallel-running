@@ -1,4 +1,4 @@
-name: Share data between steps
+name: cypress-parallel-in-ci
 
 on:
   workflow_dispatch:
