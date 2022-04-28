@@ -19,8 +19,8 @@
   },
   "homepage": "https://github.com/bennymeade/cypress-parallel-running#readme",
   "devDependencies": {
-    "cypress": "9.0.0",
-    "cypress-multi-reporters": "^1.5.0",
-    "cypress-parallel": "^0.8.2"
+    "cypress": "^9.6.0",
+    "cypress-multi-reporters": "^1.6.0",
+    "cypress-parallel": "^0.9.0"
   }
 }
